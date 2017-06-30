@@ -7,5 +7,7 @@ ADD db.sqlite3 /opt/app/db.sqlite3
 
 EXPOSE 8088
 
+CMD [ "python", "/opt/app/manage.py runserver" ]
+
 
 
