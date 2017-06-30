@@ -1,4 +1,4 @@
-FROM python:latest 
+FROM python:2.7.13
 MAINTAINER Fred <lixiang100824@163.com> 
 
 ADD Golden /opt/app/Golden
