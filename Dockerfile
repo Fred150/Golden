@@ -1,4 +1,4 @@
-FROM ubuntu:latest 
+FROM python:latest 
 MAINTAINER Fred <lixiang100824@163.com> 
 
 ADD Golden /opt/app/Golden
